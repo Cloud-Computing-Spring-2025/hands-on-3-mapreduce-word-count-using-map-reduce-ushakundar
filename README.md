@@ -112,15 +112,16 @@ To copy the output from HDFS to your local machine:
 ## Sample Input and Output
 Input Format
 A text file where each line contains a sentence or a set of words. Example:
-
+```bash
 Hello world
 Hello Hadoop
 Hadoop is powerful
 Hadoop is used for big data
-    
+```
+
 Expected Output
 Each word should be counted, and the output should be:
-
+```bash
 Hadoop 3
 Hello 2
 is 2
@@ -130,3 +131,4 @@ big 1
 data 1
 powerful 1
 world 1
+```
